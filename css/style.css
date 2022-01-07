@@ -1,0 +1,75 @@
+#header {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('../img/mainvisual.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  padding: 20px 40px;
+  margin-bottom: 20px;
+}
+
+#header img {
+  text-align: center;
+}
+
+#header nav {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 20px 40px;
+}
+
+#header nav ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+#header nav ul li a:link,
+#header nav ul li a:visited {
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+  text-shadow: 1px 1px 2px;
+}
+
+#header h1 {
+  font-size: 120px;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+a,
+a:link,
+a:visited {
+  display: inline-block;
+  text-decoration: none;
+}
+
+/* MENU */
+
+.menu-visual {
+  width: 100%;
+  min-height: 50vh;
+  background-image: url('../img/menu.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  padding: 20px 40px;
+}
+
+.menu-visual h2 {
+  color: #fff;
+  font-size: 70px;
+  position: absolute;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

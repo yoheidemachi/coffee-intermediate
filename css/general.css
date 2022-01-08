@@ -11,4 +11,15 @@ html {
 body {
   font-family: 'Helvetica Neue', Arial, 'Hiragino Sans',
     'Hiragino Kaku Gothic ProN', 'Meiryo', 'sans-serif';
+  font-weight: 400;
+}
+
+.wrapper {
+  max-width: 1000px;
+  padding: 0 16px;
+  margin: 0 auto;
+}
+
+dl {
+  font-weight: 400;
 }

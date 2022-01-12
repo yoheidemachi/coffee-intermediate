@@ -1,0 +1,22 @@
+{
+  "name": "intermediate-coffee",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yoheidemachi/coffee-intermediate.git"
+  },
+  "author": "Yohei",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yoheidemachi/coffee-intermediate/issues"
+  },
+  "homepage": "https://github.com/yoheidemachi/coffee-intermediate#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
